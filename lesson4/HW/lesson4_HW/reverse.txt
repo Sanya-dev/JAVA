@@ -1,0 +1,10 @@
+//5**) Сделать реверс строки:
+
+        String str1 = "! хындохыв маВ хишороХ";
+
+        str1 = reverse(str1);
+
+        System.out.println("Готово: " + str1);
+public static String reverse(String str1) {
+        return new StringBuilder(str1).reverse().toString();
+    }
